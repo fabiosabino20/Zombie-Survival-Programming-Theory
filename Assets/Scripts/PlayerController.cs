@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
         Cursor.visible = false;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         Move();
         Jump();
